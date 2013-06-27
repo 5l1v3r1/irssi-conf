@@ -43,7 +43,6 @@ channels = (
   { name = "#cvf.tours"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#git"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#nerfroom"; chatnet = "mbs"; autojoin = "yes"; },
-  { name = "#sm"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#swat-tours"; chatnet = "mbs"; autojoin = "yes"; }
 );
 
@@ -235,10 +234,11 @@ settings = {
   };
 };
 ignores = ( { level = "JOINS PARTS QUITS"; } );
-keyboard = ( { key = "meta-x"; id = "command"; data = "clear 10"; } );
+keyboard = ( { key = "meta-x"; id = "command"; data = "clear 1"; } );
 windows = {
-  1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
-  2 = {
+  1 = { name = "hilight"; sticky = "yes"; };
+  2 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
+  3 = {
     items = (
       {
         type = "CHANNEL";
@@ -248,7 +248,7 @@ windows = {
       }
     );
   };
-  3 = {
+  4 = {
     items = (
       { 
         type = "CHANNEL";
@@ -258,7 +258,7 @@ windows = {
       }
     );
   };
-  4 = {
+  5 = {
     items = (
       {
         type = "CHANNEL";
@@ -268,7 +268,7 @@ windows = {
       }
     );
   };
-  5 = {
+  6 = {
     items = (
       { 
         type = "CHANNEL";
@@ -278,7 +278,7 @@ windows = {
       }
     );
   };
-  6 = {
+  7 = {
     items = (
       {
         type = "CHANNEL";
@@ -286,11 +286,6 @@ windows = {
         name = "#nerfroom";
         tag = "mbs";
       }
-    );
-  };
-  7 = {
-    items = (
-      { type = "CHANNEL"; chat_type = "IRC"; name = "#sm"; tag = "mbs"; }
     );
   };
   8 = {
@@ -313,11 +308,10 @@ windows = {
       }
     );
   };
-  10 = { name = "hilight"; sticky = "yes"; };
 };
 mainwindows = {
-  9 = { first_line = "6"; lines = "50"; };
-  10 = { first_line = "1"; lines = "5"; };
+  8 = { first_line = "6"; lines = "50"; };
+  9 = { first_line = "1"; lines = "5"; };
 };
 hilights = (
   { text = "tours"; nick = "yes"; word = "yes"; },
