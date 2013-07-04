@@ -1,0 +1,4 @@
+new-window -n irssi irssi
+splitw -h -p 10 -t 0 '/bin/cat ~/.irssi/nicklistfifo'
+select-pane -t 0
+send-keys -tirssi "/nicklist fifo" C-m;
