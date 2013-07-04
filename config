@@ -227,6 +227,7 @@ settings = {
     nicklist_automode = "SCREEN";
     awl_display_key_active = "$N%n $H%G$C%n$S";
     awl_display_nokey = "[$N]$H$C$S";
+    nicklist_height = "57";
   };
   "irc/dcc" = {
     dcc_download_path = "~/.irssi/downloads";
