@@ -41,7 +41,7 @@ channels = (
   { name = "#contactless"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#cvf"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#cvf.tours"; chatnet = "mbs"; autojoin = "yes"; },
-  { name = "#fns"; chatnet = "mbs"; autojoin = "yes"; },
+  { name = "#cts"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#git"; chatnet = "mbs"; autojoin = "yes"; },
   { name = "#nerfroom"; chatnet = "mbs"; autojoin = "yes"; },
 );
